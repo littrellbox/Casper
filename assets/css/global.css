@@ -485,3 +485,17 @@ h6 {
     font-size: 1.4rem;
     font-weight: 500;
 }
+
+.button {
+    position: relative;
+    display: block;
+    padding: 4px;
+    padding-right: 8px !important;
+    padding-left: 8px;
+    border-radius: 5px;
+    color: #fff;
+    opacity: .8;
+    -webkit-transition: opacity .35s ease-in-out;
+    transition: opacity .35s ease-in-out; 
+    background: #292b2f;
+}
